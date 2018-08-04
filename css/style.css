@@ -73,7 +73,7 @@ header {
           font-size: 14px;
           font-size: 1.4rem;
           float: left;
-          padding-right: 16px; } }
+          padding-right: 15px; } }
   @media (max-width: 640px) {
     header .pc_navi {
       float: left; } }
@@ -113,6 +113,8 @@ header {
 *{
   box-sizing: border-box; }
 
+
+
 #new-item-box .item {
   float: left;
   width: 33%;
@@ -130,9 +132,15 @@ header {
     width: 50%;
     height: 100%; } }
     
+.sp_new{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#f9f8f6;
+}
+    
 #popular-item-box .items {
   float: left;
-  width: 30%;
+  width: 33%;
   height: 100%;
   padding: 5px; }
 
@@ -147,9 +155,15 @@ header {
     width: 50%;
     height: 100%; } }
     
+.sp_popular{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#f9f8f6;
+}
+    
 #category-box .item1 {
   float: left;
-  width: 30%;
+  width: 33%;
   height: 100%;
   padding: 5px; }
 
@@ -169,7 +183,7 @@ header {
 
 #recent-item-box .items {
   float: left;
-  width: 30%;
+  width: 33%;
   height: 100%;
   padding: 5px; }
 
@@ -183,6 +197,12 @@ header {
     float: left;
     width: 50%;
     height: 100%; } }
+    
+.sp_recent{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#f9f8f6;
+}
     
 .products_area{
   width: 74%;
@@ -215,6 +235,12 @@ header {
     float: none;
     width: 100%;
     height: 100%; } }
+    
+.sp_shopping{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#f9f8f6;
+}
     
 #searchInput {
   background-image: url("../images/top/search_icon.png");
@@ -304,7 +330,7 @@ header {
   font-size: 1.8rem; }
 
 .p_number {
-  font-size: 0.8rem; }
+  font-size: 1.2rem; }
 
 .products_name {
   overflow: hidden; }
@@ -400,7 +426,7 @@ header {
 .price {
   font-size: 2.5rem;
   font-style:italic;
-  color: #9d1a2d;
+  color: #e80f66;
   margin-left: 20%; }
 
 .price_list {
